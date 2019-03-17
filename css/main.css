@@ -1,0 +1,159 @@
+/******* BASE STYLES ********/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#header {
+    height: 800px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+}
+#work {
+    height: 1450px;
+}
+#about {
+    height: 650px;
+}
+#contact {
+    height: 400px;
+}
+/******** GRID *********/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.half-width {
+    float: left;
+    width: 600px;
+    text-align: left;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+#header .full-width {
+    padding: 350px 0px;
+}
+#header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    color: #bdbf09;
+}
+#header h2 {
+    font-size: 48px;
+    color: #095156;
+    font-weight: 400;
+}
+/******** HEADER ***********/
+
+
+
+
+
+
+
+/********** WORK *********/
+
+#work h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    color: #095156;
+}
+#rogue {
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+#roguedesc {
+    padding-top: 70px;
+}
+#roguedesc h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #095156;
+}
+#roguedesc h5, p {
+    color: #095156;
+    font-size: 24px;
+    font-weight: 400;
+}
+#jubileedesc h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #095156;
+}
+#jubileedesc h5, p {
+    color: #095156;
+    font-size: 24px;
+    font-weight: 400;
+}
+#jubileedesc {
+    padding-top: 45px;
+}
+#jubilee {
+    padding-bottom: 50px;
+}
+#holsteedesc h4 {
+    color: #095156;
+    font-size: 24px;
+    font-weight: 700;
+}
+#holsteedesc h5, p {
+    color: #095156;
+    font-size: 24px;
+    font-weight: 400;
+}
+#holsteedesc {
+    padding-top: 76px;
+}
+/********** ABOUT ********/
+#about {
+    background: #087e8b;
+    color: #ffffff;
+}
+#about h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    padding-top: 50px;
+}
+#about h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+#about p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+#about-me-image {
+    padding-top: 25px;
+}
+/********** CONTACT *********/
+#contact {
+    background: #095156;
+    color: #ffffff;
+    padding-top: 20px;
+}
+#contact h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+#contact h4 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+}
+#contact p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+}
+#contact ul {
+    list style: none;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact li {
+    margin: 0 50px 0 0;
+}
